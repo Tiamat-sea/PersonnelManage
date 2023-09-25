@@ -1,0 +1,106 @@
+{
+	"homeInfo": {
+		"title": "员工管理",
+		"href": "employeeIndex"
+	},
+	"logoInfo": {
+		"title": "人事管理",
+		"image": "images/favicon.ico",
+		"href": "employeeIndex"
+	},
+	"menuInfo": [
+		{
+			"title": "基础功能",
+			"icon": "fa fa-bars",
+			"href": "",
+			"target": "_self",
+			"child": [
+				{
+					"title": "员工管理",
+					"href": "employeeIndex",
+					"icon": "fa fa-users",
+					"target": "_self"
+				},
+				{
+					"title": "部门管理",
+					"href": "departmentIndex",
+					"icon": "fa fa-building-o",
+					"target": "_self"
+				},
+				{
+					"title": "考勤管理",
+					"href": "",
+					"icon": "fa fa-calculator",
+					"target": "_self",
+					"child": [{
+						"title": "规则设置",
+						"href": "attendanceRulesIndex",
+						"icon": "fa fa-calendar-check-o",
+						"target": "_self"
+					},
+					{
+						"title": "考勤记录",
+						"href": "attendanceIndex",
+						"icon": "fa fa-list",
+						"target": "_self"
+					}
+					]
+				}
+			]
+		},
+		
+		{
+			"title": "特殊功能",
+			"icon": "fa fa-bars",
+			"href": "",
+			"target": "_self",
+			"child": [
+				{
+					"title": "加班管理",
+					"href": "overtimeIndex",
+					"icon": "fa fa-clock-o",
+					"target": "_self"
+				},
+				{
+					"title": "休假管理",
+					"href": "leaveIndex",
+					"icon": "fa fa-leaf",
+					"target": "_self"
+				},
+				{
+					"title": "薪资管理",
+					"href": "salaryIndex",
+					"icon": "fa fa-money",
+					"target": "_self"
+				}
+			]
+		},
+		
+		{
+			"title": "高级功能",
+			"icon": "fa fa-bars",
+			"href": "",
+			"target": "_self",
+			"child": [
+				{
+					"title": "日志管理",
+					"href": "eventlogIndex",
+					"icon": "fa fa-cogs",
+					"target": "_self"
+				},
+				{
+					"title": "管理员管理",
+					"href": "adminIndex",
+					"icon": "fa fa-user-circle-o",
+					"target": "_self"
+				},
+				{
+					"title": "报表管理",
+					"href": "reportIndex",
+					"icon": "fa fa-list-ol",
+					"target": "_self"
+				}
+			]
+		}
+	]
+}
